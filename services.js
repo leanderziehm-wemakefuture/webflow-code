@@ -1,36 +1,16 @@
-console.log("landing-page.js loaded from github :)")
+console.log("services.js loaded from github :)")
+
 
 /*
 
-
-<script src="https://cdn.finsweet.com/files/cmslibrary-v1.7.js"></script>
-
-(function() {
-	// create a new Library instance and store it in a variable called "projectsGrid"
-	var projectsGrid = new FsLibrary('.sas-list')
-  
-	// run loadmore on our instance
-  projectsGrid.loadmore({
-		button: ".load-more-button",
-    loadAll: false,
-    resetIx: true,
-		animation: {
-			enable: true,
-			duration: 500,
-			easing: 'ease-out',
-			effects: 'fade translate(0px,20px)'
-			}
-	})
-})();
-
-
-<script src="https://newjersey.github.io/mixitup/dist/mixitup.min.js"></script>
-<script src="https://newjersey.github.io/mixitup-multifilter/dist/mixitup-multifilter.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.14.0/prism.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.0/mixitup.min.js"></script>
+<script src="https://dl.dropboxusercontent.com/s/ykc6xhx53vrazy3/mixitup-multifilter.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="https://cdn.shopify.com/s/files/1/0771/2161/t/3/assets/jPages.min.js?10688064064350896456"></script>
 
-
-// Filtering.... https://www.bostoen.be/assets/bower_components/mixitup-multifilter/dist/mixitup-multifilter.js
-//https://www.bostoen.be/assets/bower_components/mixitup-multifilter/demos/mixitup.min.js
+<script>
+// Filtering....
 var conv = function (str) {
   if (!str) {
     str = 'empty';
@@ -54,9 +34,8 @@ var pagination = $('.pagination');
 function setPagination(){
 	 pagination.jPages({
      containerID: 'sas-list',
-     perPage: 4,
+     perPage: 16,
      startPage: 1,
-     itemsPerPage: 16,
      startRange: 1,
      midRange: 3,
      endRange: 1,
@@ -77,7 +56,8 @@ function destroyPagination() {
       enable: true
     },
     animation: {
-      effects: 'fade translateZ(-100px)'
+      //effects: 'fade translateZ(-100px)',
+      enable: false
     },
     callbacks: {
     onMixStart: function(state,futureState ){
@@ -96,8 +76,6 @@ function destroyPagination() {
 })
   
 
-
-
 $(".pricing-switch-tab .pricing-tab-link").click(function(){
 	$(".pricing-switch-tab .pricing-tab-link").removeClass('active');
 	$(this).toggleClass('active');
@@ -109,5 +87,6 @@ $('.sas-item').each(function(){
     var type = $(this).find("#type-item")
     $(plarform).append( $(type) );
 })
+
 
 */
